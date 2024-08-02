@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke-black {
+    -webkit-text-stroke: 1px black; /* Adjust stroke width and color */
+    color: inherit; /* This makes the stroke visible */
+}
+
+.text-stroke-white {
+    -webkit-text-stroke: 1px white;
+    color: inherit; /* This makes the stroke visible */;
+}
+/* global.css or a similar global stylesheet */
+.custom-hr {
+    height: 5px; /* Adjust thickness as needed */
+    background-color: black; /* Match color with text color */
+    border: none;
+    /* margin: 0.5rem 0; Optional: add margin for spacing */
+}
